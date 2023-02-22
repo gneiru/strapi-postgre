@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "singularName": "player",
+    "pluralName": "players",
+    "displayName": "player"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "ccid": {
+      "type": "integer"
+    },
+    "discord_id": {
+      "type": "string"
+    },
+    "guild_name": {
+      "type": "string"
+    }
+  }
+}

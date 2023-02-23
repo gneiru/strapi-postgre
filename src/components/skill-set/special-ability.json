@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_skill_set_special_abilities",
+  "info": {
+    "displayName": "SpecialAbility"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

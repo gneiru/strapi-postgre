@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_skill_set_normal_attacks",
+  "info": {
+    "displayName": "NormalAttack"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

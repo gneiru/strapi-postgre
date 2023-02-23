@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "challenges",
+  "info": {
+    "singularName": "challenge",
+    "pluralName": "challenges",
+    "displayName": "challenge",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "requirements": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::requirement.requirement"
+    }
+  }
+}

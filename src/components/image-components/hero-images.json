@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_image_components_hero_images",
+  "info": {
+    "displayName": "hero-images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "jp": {
+      "type": "string",
+      "default": "https://via.placeholder.com/300x450"
+    },
+    "sc": {
+      "type": "string",
+      "default": "https://via.placeholder.com/300x450"
+    },
+    "icon": {
+      "type": "string",
+      "default": "https://via.placeholder.com/150x150"
+    },
+    "gl": {
+      "type": "string",
+      "default": "https://via.placeholder.com/300x450"
+    }
+  }
+}

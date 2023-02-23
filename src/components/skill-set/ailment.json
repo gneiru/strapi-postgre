@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_skill_set_ailments",
+  "info": {
+    "displayName": "Ailment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "from": {
+      "type": "enumeration",
+      "enum": [
+        "Downed",
+        "Airborne",
+        "Injured",
+        "All"
+      ]
+    },
+    "to": {
+      "type": "enumeration",
+      "enum": [
+        "Downed",
+        "Airborne",
+        "Injured",
+        "All"
+      ]
+    }
+  }
+}

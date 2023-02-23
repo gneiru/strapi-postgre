@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_skill_set_chain_skills",
+  "info": {
+    "displayName": "ChainSkill",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Ailment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "skill-set.ailment"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gt_heroes",
+  "info": {
+    "singularName": "gt-hero",
+    "pluralName": "gt-heroes",
+    "displayName": "gt-hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "party_buff": {
+      "type": "string"
+    },
+    "class": {
+      "type": "enumeration",
+      "enum": [
+        "Warrior",
+        "Ranged",
+        "Tanker",
+        "Support"
+      ]
+    },
+    "element": {
+      "type": "enumeration",
+      "enum": [
+        "Light",
+        "Basic",
+        "Dark",
+        "Earth",
+        "Water",
+        "Fire"
+      ]
+    },
+    "equipment": {
+      "type": "enumeration",
+      "enum": [
+        "Bow",
+        "Rifle",
+        "Staff",
+        "Gauntlet",
+        "Basket",
+        "Shield",
+        "Claw",
+        "One-handed Sword",
+        "Two-handed Sword"
+      ]
+    },
+    "rarity": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "unique",
+        "rare"
+      ]
+    },
+    "normal_attack": {
+      "type": "component",
+      "repeatable": false,
+      "component": "skill-set.normal-attack"
+    },
+    "chain_skill": {
+      "type": "component",
+      "repeatable": false,
+      "component": "skill-set.chain-skill"
+    },
+    "special_ability": {
+      "type": "component",
+      "repeatable": false,
+      "component": "skill-set.special-ability"
+    },
+    "image_urls": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-components.hero-images"
+    }
+  }
+}
